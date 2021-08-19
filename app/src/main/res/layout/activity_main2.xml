@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BEB0D8"
     tools:context=".MainActivity2">
 
     <ImageView
@@ -21,7 +22,9 @@
         android:id="@+id/textView"
         android:layout_width="334dp"
         android:layout_height="57dp"
+        android:fontFamily="@font/mclaren"
         android:gravity="center"
+        android:textColor="#070707"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,9 +36,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="377dp"
-        android:layout_height="238dp"
-        android:gravity="center|left"
+        android:layout_width="375dp"
+        android:layout_height="211dp"
+        android:background="#AED6D2"
+        android:fontFamily="@font/mclaren"
+        android:gravity="center"
+        android:textColor="#050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
